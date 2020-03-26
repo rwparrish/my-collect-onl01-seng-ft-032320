@@ -1,5 +1,5 @@
 
-def myCollect(array)
+def my_Collect(array)
     i = 0
     new_arr = []
     while i < array.length
