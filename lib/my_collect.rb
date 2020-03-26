@@ -11,5 +11,5 @@ def myCollect(array)
 end
   
 
-  myCollect(array) do |name| 
+ # myCollect(array) do |name| 
     name.split(" ").first
