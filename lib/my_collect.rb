@@ -1,5 +1,6 @@
 
 def myCollect(array)
+  new_arr = []
     i = 0
     while i < array.length
       yield(array[i])
@@ -8,4 +9,5 @@ def myCollect(array)
     array
   end
 
-  myCollect(array) do |name
+  myCollect(array) do |name| 
+    name.split(" ").first
