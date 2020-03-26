@@ -8,4 +8,4 @@ def myCollect(array)
     array
   end
 
-  myCollect(array){|name| puts "Hi, #{name}"}
+  myCollect(array) do 
