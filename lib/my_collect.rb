@@ -12,4 +12,4 @@ end
   
 
  # myCollect(array) do |name| 
-    name.split(" ").first
+   # name.split(" ").first
