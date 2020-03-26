@@ -4,7 +4,7 @@ def myCollect(array)
     new_arr = []
     while i < array.length
       new_arr << yield(array[i])
-      i = i+1
+      i = i + 1
        
     end
     new_arr
