@@ -8,4 +8,4 @@ def myCollect(array)
     array
   end
 
-  myCollect(array) do 
+  myCollect(array) do |name
