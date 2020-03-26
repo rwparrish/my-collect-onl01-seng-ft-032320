@@ -5,10 +5,11 @@ def myCollect(array)
     while i < array.length
       yield(array[i])
       i = i+1
+      new_arr << 
     end
     
   end
-  new_arr <<
+  
 
   myCollect(array) do |name| 
     name.split(" ").first
